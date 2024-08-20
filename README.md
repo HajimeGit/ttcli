@@ -1,4 +1,3 @@
-
 # Task Tracker CLI
 
 ## Overview
@@ -22,7 +21,7 @@ Clone the repository:
   cd ttcli
   npm install
 ```
-    
+
 ## Usage/Examples
 
 The CLI supports a variety of commands, each with its own set of arguments. Here are the available commands:
@@ -39,19 +38,20 @@ Example Commands:
 
 - Add a new task:
 
-``` bash
+```bash
 node index.js add "Buy groceries"
 ```
+
 - List all tasks:
 
-``` bash
-node cli.js list
+```bash
+node index.js list
 ```
 
 - Mark a task as done:
 
-``` bash
-node cli.js mark-done 1
+```bash
+node index.js mark-done 1
 ```
 
 ## Project Structure
@@ -64,3 +64,7 @@ node cli.js mark-done 1
 - command-list.js: Registers all available commands in the CLI.
 - command-processor.js: Processes the command-line input and executes the corresponding command.
 - task-repository.js: Provides functions to interact with tasks, such as adding, removing, and listing tasks.
+
+## Project Idea
+
+- https://roadmap.sh/projects/task-tracker
